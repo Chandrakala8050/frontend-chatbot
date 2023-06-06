@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image:url("../images/rkcs.avif");
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formdesign {
+    margin-bottom: 20px;
+  }
+  
+  .formdesign input[type="text"],
+  .formdesign input[type="email"],
+  .formdesign input[type="phone"],
+  .formdesign input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formerror {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Fancy Styles */
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .formdesign input[type="text"],
+  .formdesign input[type="email"],
+  .formdesign input[type="phone"],
+  .formdesign input[type="password"] {
+    background-color: #f7f7f7;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .formdesign input[type="text"]:focus,
+  .formdesign input[type="email"]:focus,
+  .formdesign input[type="phone"]:focus,
+  .formdesign input[type="password"]:focus {
+    background-color: #e2e2e2;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #ff5722;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:hover {
+    background-color: #ff7043;
+  }
+  

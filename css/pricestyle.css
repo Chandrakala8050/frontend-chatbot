@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   /* body{
+    font-family: 'Times New Roman', Times, serif;
+
+   } */
+
+   .mainhead{
+    font-size: 75px;
+    text-align: center;
+    padding-top:inherit;
+    font-weight: bold;
+   }
+   .pricing{
+    font-size: 50px;
+    text-align: center;
+    padding-top:inherit;
+    /* font-weight: bold; */
+   } 
+   .main{  
+    margin: 2%;
+   }
+   
+   .price1{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px rgb(47, 232, 75);
+        border-radius: 5px; 
+        margin: 2%;
+        justify-items: center;
+        text-transform:capitalize;
+       }   
+   .image img{
+     width: 100%;
+     height:100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     align-items: center;   
+    }   
+   .des{
+    padding: 3px;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-transform:capitalize;
+   }
+
+   .last{
+  font-size: 50px;
+  text-align: center;
+  padding-top:inherit;
+  font-weight: bold;
+
+   }
+   .last img{
+    width:100%;font-size: larger;
+   }
+   /* }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+    */

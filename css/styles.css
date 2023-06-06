@@ -1,0 +1,389 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* header {
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+  
+} */
+.containerpara {
+    font-weight: 700;
+    font-size: 30px;
+    color: darkorange; 
+}
+.left-para{
+    padding-top: 3%;
+    text-align:center;
+    justify-content: center;
+}
+.heading{
+    padding-top: 2%;
+    color:#ff2b00;
+
+}
+.blink{
+    padding-top: 1%;
+    animation: blinker linear infinite;
+    color: red;
+    font-family: sans-serif;
+    height:50%;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+body{
+    background-image:url("../images/rkcs.avif");
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    background-color:rgb(7, 226, 189);
+    height: 80px;
+   
+}
+nav {
+    padding:0 30px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80px;
+}
+
+.logo {
+    font-size:35px;
+    font-weight:700;
+    color:#ffffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:2px;
+
+}
+
+.heading{
+    text-align: center;
+}
+object {
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+  }
+  nav {
+    padding:0 30px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80px;
+}
+.logo img{
+      width:200px;
+      height:50px;
+      float:left;
+      
+}
+.logo {
+    font-size:35px;
+    font-weight:700;
+    color:#ffffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    justify-content: space-between;
+}
+.nav_bar li a:hover {
+    color: #0a3eda;
+    transition: all 0.4s ease 0s;
+}   
+.nav_bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+  
+} 
+.nav-sty{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400px;
+}
+
+
+
+c-navbar__actions {
+    display: flex;
+    display: none;
+    margin-left: auto;
+    margin-right: -0.25rem;
+    position: relative;
+}
+.c-btn.v--secondary {
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+}
+.c-btn.v--sm {
+    min-width: 6rem;
+    padding: 0.5rem 1rem;
+}
+.c-btn:not(:disabled) {
+    cursor: pointer;
+}
+.c-btn:not(:focus) {
+    box-shadow: none;
+}
+.c-navbar__actions>* {
+    margin: 0 0.25rem;
+}
+
+.c-btn {
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background .2s,color .2s,border .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.c-btn.v--signup {
+    background-color: #ff2b00;
+    border-color: #ff2b00;
+    color: #fff;
+}
+.c-btn.v--sm {
+    min-width: 6rem;
+    padding: 0.5rem 1rem;
+}
+.c-btn:not(:disabled) {
+    cursor: pointer;
+}
+.c-btn:not(:focus) {
+    box-shadow: none;
+}
+.c-navbar__actions>* {
+    margin: 0 0.25rem;
+}
+.c-btn {
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background .2s,color .2s,border .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.logo img{
+    height: 40px;
+    width:120px;
+    display:black;
+    border-image:pink;
+   
+  }
+.chating img{
+    float:right;
+    height: 700px;
+    width:700px;
+    display: block;
+    margin-left: auto
+}
+.b--u-text-3xl {
+   padding-top: 10%;
+   padding-left: 5%;
+   padding-right: 10%;
+   padding-top: 10%;
+    font-weight: 700;
+    letter-spacing: -normal;
+    font-size: 200%;
+  
+}
+.u-my-0 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.u-py-md {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.u-mx-auto {
+    margin-right: auto;
+    padding-left: 7%;
+}
+
+.u-maxw-6 {
+    max-width: 34rem;
+}
+.heading{
+    text-align: center;
+}
+object {
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *, :after, :before {
+    border: 0 solid var(--color-black-100);
+}
+*, :after, :before {
+    border: 0 solid #d4d4d7;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    color: var(--color-black);
+    font-family: Colfax,colfax-web,Proxima Nova,Open Sans,Gill Sans MT,Gill Sans,Corbel,Arial,sans-serif;
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    line-height: 1.55555556;
+}
+body {
+    color: var(--color-black-900);
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+body {
+    color: #000;
+    font-family: Colfax,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+*, :after, :before {
+    border: 0 solid var(--color-black-100);
+}
+*, :after, :before {
+    border: 0 solid #d4d4d7;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    border: 0 solid var(--color-black-100);
+}
+*, :after, :before {
+    border: 0 solid #d4d4d7;
+}
+*, :after, :before {
+    box-sizing: inherit;
+} */ 
